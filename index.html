@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css"/>
+    <title>Sapper</title>
+  </head>
+  <body>
+    <section>
+     <div class="sapper">
+      <div id="game-info">
+        <div class="bomb-indicate"></div>
+        <div class="start-button"></div>
+        <div class="stopwatch"></div>
+      </div>
+      <div
+        id="board"
+        ondragstart="event.preventDefault();"draggable="false">
+      </div>
+     </div>
+    </section>
+  </body>
+  <script type="module" src="js/saper.js"></script>
+</html>
